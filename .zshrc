@@ -9,14 +9,15 @@ ZSH_THEME="blinks"
 export EDITOR="vim"
 
 # Aliases
-alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
-alias p="python"
-alias ...=".. .."
-alias ls="ls -a"
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="cd ~/.oh-my-zsh"
 
-# Set to this to use case-sensitive completion
-CASE_SENSITIVE="false"
+alias p="python"
+
+alias la="ls -a"
+alias ...=".. .."
+
+export TERM="xterm-256color"
 
 # Comment this out to disable weekly auto-update checks
 # DISABLE_AUTO_UPDATE="true"
@@ -38,4 +39,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/usr/bin:/Developer/Applications/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Developer/mongodb/bin:/Developer/neo4j/bin
+export PATH=/Users/joostplattel/:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/usr/bin:/Developer/Applications/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Developer/mongodb/bin:/Developer/neo4j/bin
