@@ -13,10 +13,18 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
 
 alias p="python"
-
 alias la="ls -a"
 alias ...=".. .."
 
+# Git shortcuts
+alias gc="git commit -m"
+alias gi="git init"
+alias gg="git clone" 
+alias gs="git status"
+
+alias pys="python -m SimpleHTTPServer 8888"
+
+# Color fixes for theming
 export TERM="xterm-256color"
 
 # Comment this out to disable weekly auto-update checks
