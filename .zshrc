@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
-ZSH_THEME="blinks"
+ZSH_THEME="joost"
 
 # Set vim as the standard editor
 export EDITOR="vim"
@@ -23,6 +23,8 @@ alias gg="git clone"
 alias gs="git status"
 
 alias pys="python -m SimpleHTTPServer 8888"
+
+alias cpwd="pwd|pbcopy"
 
 # Color fixes for theming
 export TERM="xterm-256color"
@@ -47,4 +49,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/joostplattel/:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/usr/bin:/Developer/Applications/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin:/Developer/mongodb/bin:/Developer/neo4j/bin
+export PATH=/Users/joostplattel/:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Developer/usr/bin:/Developer/Applications/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/usr/local/mysql/bin
