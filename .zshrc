@@ -22,9 +22,13 @@ alias gi="git init"
 alias gg="git clone" 
 alias gs="git status"
 
+
 alias pys="python -m SimpleHTTPServer 8888"
 
 alias cpwd="pwd|pbcopy"
+
+# MongoDB location
+alias mongod='mongod --dbpath "/Developer/mongodb/"'
 
 # Color fixes for theming
 export TERM="xterm-256color"
